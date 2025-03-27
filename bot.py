@@ -1,7 +1,9 @@
 import discord
+from discord.ext import commands
+import os  
 import random
 
-TOKEN =""
+TOKEN = os.getenv("TOKEN")
 
 # 設定 Intents
 intents = discord.Intents.default()
